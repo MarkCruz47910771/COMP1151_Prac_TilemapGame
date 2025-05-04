@@ -1,2 +1,5 @@
-# COMP1150 25s1 Template [Unity6_0_38]
-Template for the COMP1150 25s1 Unity version [Unity6_0_38]. Used as boilerplate template for future prac repo's.
+# COMP1151 - Tilemap Game
+
+This repository is used for Practicals week 9-13. Note that the README's (instructions) for each practical lesson will be featured on iLearn under a separate repository
+
+Note: For this game, we will be using the "Tiled" software, found [here](https://www.mapeditor.org/).
