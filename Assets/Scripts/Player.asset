@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Player
+      Main","summary":null,"pan":{"x":50.8755,"y":-90.173},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-489.0,"y":-302.0},"guid":"67420656-cb87-4bc6-a5c7-eb7434fb55fa","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"FloatValue":null,"Vector2Value":{"unit":{"$ref":"11"}},"InputActionChangeType":"OnPressed","coroutine":false,"defaultValues":{"Target":null,"InputAction":{"id":"351f2ccd-1f9f-44bf-9bec-d62ac5c5f408","name":"Move","expectedControlType":"Vector2","type":"Value","$type":"UnityEngine.InputSystem.InputAction"}},"position":{"x":-182.0,"y":-170.0},"guid":"19b111ce-3353-4526-bc2a-7baba1a2275c","$version":"A","$type":"Unity.VisualScripting.InputSystem.OnInputSystemEventVector2","$id":"11"},{"chainable":false,"member":{"name":"linearVelocity","parameterTypes":null,"targetType":"UnityEngine.Rigidbody2D","targetTypeName":"UnityEngine.Rigidbody2D","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"}},"position":{"x":257.0,"y":-299.0},"guid":"a4dab6f9-c4d9-4ffe-a865-98fc1e737f94","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"15"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"movementSpeed","$type":"System.String"},"object":null},"position":{"x":-124.0,"y":23.0},"guid":"0770f102-bf8e-42c3-8ceb-52e3757c9a81","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"defaultValues":{},"position":{"x":92.0,"y":-76.0},"guid":"352a54cb-95e3-4940-9fc2-e406cd9c8d35","$version":"A","$type":"Unity.VisualScripting.GenericMultiply","$id":"20"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"dd27b936-b74f-4e5b-a4fc-2dff684ed408","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"b","guid":"e6c365f6-69e8-49ba-b87e-9e5521f5ff39","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Vector2Value","destinationUnit":{"$ref":"20"},"destinationKey":"a","guid":"76f95b59-d607-4cbc-98d9-8509983e2b68","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"product","destinationUnit":{"$ref":"15"},"destinationKey":"input","guid":"16d3675b-964c-4840-9d2b-7be3c90039e4","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-199.9999,"yMin":-341.8888,"xMax":445.5558,"yMax":188.6668},"label":"Basic
+      Movement","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"59844360-353e-4220-9b85-e4aa3584d7bc","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
