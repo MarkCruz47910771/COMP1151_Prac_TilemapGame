@@ -1,0 +1,27 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "TinyBattle_Tilesheet.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "TinyTilemap.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": -5.333333333333332,
+                "y": -91.66666666666666
+            }
+        }
+    },
+    "openFiles": [
+    ],
+    "project": "",
+    "recentFiles": [
+        "TinyBattle_Tilesheet.tsx",
+        "TinyTilemap.tmx"
+    ]
+}
